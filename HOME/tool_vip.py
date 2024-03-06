@@ -97,6 +97,6 @@ chon = int(input('\033[1;36m./o--000"-╚\033[1;31m➤\033[1;32m➤\033[1;33m➤
 if chon == 1 :
     exec(requests.get('https://raw.githubusercontent.com/it5pro/tool_vip_version5.0/main/KEY/key.py').text)                
 if chon == 2 :
-    exec(requests.get('https://run.mocky.io/v3/dca67038-1f39-43f6-9a6f-542128160a8c').text)
+    exec(requests.get('https://raw.githubusercontent.com/it5pro/tool_vip_version5.0/main/KEY/keyvip.py').text)
 else :
     print("Sai Số")
