@@ -54,9 +54,9 @@ for h in menu:
        sleep(0.0005)
 ngay=int(strftime('%d'))
 key1=str(ngay*1246881818+2888181472) 
-key = 'One/'+key1
+key = 'NMH/'+key1
 url = 'https://nguyenminhhungxyz.wpcomstaging.com/?key='+key
-token_link1s = '2bae129bb6cf914829c9675a82e9ce0acf6f0545'
+token_link1s = '14491af62cfe3cc2cc998f76f96cf8291192fdae'
 link1s = requests.get(f'https://traffic1s.com/api?api={token_link1s}&url={url}').json()
 if link1s['status']=="error": 
     print(link1s['message'])
