@@ -299,7 +299,7 @@ if chon == 9 :
 if chon == 10 :
 	exec(requests.get('').text)
 if chon == 11 :
-	exec(requests.get('https://run.mocky.io/v3/21d54eb8-b67b-4fde-973f-b728613fcae7').text)
+	exec(requests.get('https://raw.githubusercontent.com/it5pro/tool_vip_version5.0/main/LIST/GOLIKE/golike_tiktok.py').text)
 if chon == 12 :
 	exec(requests.get('').text)
 if chon == 13 :
